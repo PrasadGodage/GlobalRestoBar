@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cancel_order_id"
+        android:title="@string/cancel_order1"
+        android:icon="@drawable/ic_cancel_order"/>
+
+    <item
+        android:id="@+id/take_order_id"
+        android:title="@string/take_order1"
+        android:icon="@drawable/ic_take_order"/>
+
+    <item
+        android:id="@+id/generate_bill"
+        android:title="@string/running_order"
+        android:icon="@drawable/ic_order_taken">
+    </item>
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/autoText"
+    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+    android:background="@drawable/background"
+    android:textColor="@color/black"
+    android:text="John doe"
+    android:paddingLeft="@dimen/_8sdp"
+    android:paddingTop="@dimen/_8sdp"
+    android:paddingBottom="@dimen/_8sdp"
+    android:paddingStart="@dimen/_8sdp"
+    android:textStyle="bold"
+    android:fontFamily="@font/sourcesanspro_regular">
+</TextView>
+

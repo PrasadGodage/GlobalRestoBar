@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="@string/take_order1">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                android:title="@string/take_order1">
+
+                <item
+                    android:id="@+id/nav_take_order_id"
+                    android:title="@string/take_order1"
+                    android:icon="@drawable/ic_take_order"/>
+
+                <item
+                    android:id="@+id/nav_order_taken_id"
+                    android:title="@string/running_order"
+                    android:icon="@drawable/ic_order_taken">
+                </item>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/cancel_and_shift">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                android:title="@string/cancel_order1">
+
+                <item
+                    android:id="@+id/nav_cancel_order_id"
+                    android:title="@string/cancel_order1"
+                    android:icon="@drawable/ic_cancel_order"/>
+
+                <item
+                    android:id="@+id/nav_shift_table_id"
+                    android:title="@string/shift_table1"
+                    android:icon="@drawable/ic_shift_order"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/billing">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                android:title="@string/bill">
+
+                <item
+                    android:id="@+id/nav_generate_bill"
+                    android:title="@string/bill_invoice"
+                    android:icon="@drawable/ic_order_taken">
+                </item>
+               <!-- <item
+                    android:id="@+id/shift_order_id"
+                    android:title="SHIFT ORDER"
+                    android:icon="@drawable/ic_shift_order"></item>-->
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/about_us_and_logout">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                android:title="About">
+
+                <item
+                    android:id="@+id/nav_aboutus"
+                    android:title="@string/about_us"
+                    android:icon="@drawable/ic_info_black_24dp"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+                    android:icon="@drawable/ic_logout"/>
+            </group>
+        </menu>
+    </item>
+</menu>
